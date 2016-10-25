@@ -8,18 +8,21 @@
     <title>Count up by...</title>
   </head>
   <body>
-    <form id="counting">
-      <div class="form-group">
-        <label for="countTo" class="form-control">What total do I want to reach</label>
-        <input id="countTo" type="number" value="" placeholder="number at end of calculation will be">
+    <div class="container">
+      <h1>Count by numbers</h1>
+      <form id="counting">
+        <div class="form-group">
+          <label for="countTo">What total do I want to reach</label>
+          <input id="countTo" type="number" class="form-control" placeholder="number at end of calculation will be">
+        </div>
+        <div class="form-group">
+          <label for="countBy">What multiple will I use to get to my total</label>
+          <input id="countBy" type="number" class="form-control"  placeholder="count by this number">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit numbers</button>
+      </form>
+      <div class="result">
       </div>
-      <div class="form-group">
-        <label for="countBy" class="form-control">What multiple will I use to get to my total</label>
-        <input id="countBy" type="number" value="" placeholder="count by this number">
-      </div>
-      <button type="submit" class="btn btn-primary">Submit numbers</button>
-    </form>
-    <div class="result">
     </div>
   </body>
 </html>
